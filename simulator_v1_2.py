@@ -181,7 +181,7 @@ EVENT_FREQ_HIGH = 5.0
 # the role of a frame-based time-domain reference internally.
 
 # --- SLOT 1 PARAMETERS (Lipski FFT, Cortex-M0) ---
-LIPSKI_K = 8.0                     # μ + k·σ threshold multiplier
+
 LIPSKI_N_BINS_MIN = 3              # minimum bins exceeding threshold per frame
 LIPSKI_M_CAL = 100                 # noise frames for calibration (10 sec @ 100 Hz)
 LIPSKI_SLOW_UPDATE_ALPHA = 0.01    # EMA rate for adaptive threshold tracking
