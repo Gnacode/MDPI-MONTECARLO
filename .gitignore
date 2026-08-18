@@ -1,0 +1,18 @@
+# Python environment (recreate with setup_venv, see README)
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Simulation outputs: results and raw-waveform snapshots are large,
+# regenerate locally; do not commit
+results/
+snapshots/
+montecarlo_results*/
+*.npz
+*.csv.gz
+*.log
+
+# OS / editor noise
+.DS_Store
+Thumbs.db

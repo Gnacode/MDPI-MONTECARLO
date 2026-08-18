@@ -1,0 +1,5 @@
+title: TSNFA Monte Carlo Simulation
+description: >-
+  Monte Carlo comparison of CFAR-family and sequential detectors under
+  Cortex-M0+ constraints. Companion repository to the MDPI Sensors manuscript.
+theme: jekyll-theme-cayman
